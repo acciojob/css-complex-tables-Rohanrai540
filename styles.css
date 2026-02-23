@@ -1,22 +1,25 @@
 /*  your css code here. If applicable */
-    table {
-      border: 1px solid orange;
-      border-collapse: collapse;
-      width: 100%;
-    }
+table {
+  border-style: solid;
+  border-color: orange;
+  border-width: 0px 0px 1px 1px;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-    th {
-      background-color: #888888;
-      color: white;
-    }
+th {
+  background-color: #888888;
+  color: white;
+}
 
-    th, td {
-      border: 1px solid orange;
-      text-align: center;
-      padding: 3px 5px;
-    }
+th, td {
+  text-align: center;
+  padding: 3px 5px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 1px 1px 0px 0px;
+}
 
-    .sub-total-text {
-      text-align: right;
-      font-weight: bold;
-    }
+.sub-total-text {
+  text-align: right;
+}
